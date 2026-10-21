@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+
+<html lang="de">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="theme-color" content="#11100e">
+
+<title>Çömçe Euskirchen | Demo</title>
+
+<style>
+
+:root{--bg:#11100e;--panel:#1b1915;--gold:#d8b46a;--cream:#f7f0e3;--muted:#b9b0a0}
+
+*{box-sizing:border-box}
+
+html{scroll-behavior:smooth}
+
+body{margin:0;background:var(--bg);color:var(--cream);font-family:Arial,Helvetica,sans-serif;line-height:1.6}
+
+a{color:inherit;text-decoration:none}
+
+.demo{background:var(--gold);color:#17130b;text-align:center;padding:9px 12px;font-size:12px;font-weight:bold;letter-spacing:1px}
+
+header{padding:22px 6%;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #383127}
+
+.logo{font-family:Georgia,serif;font-size:25px;color:var(--gold);font-weight:bold}
+
+.logo small{display:block;font:10px Arial,sans-serif;letter-spacing:4px;color:var(--cream);text-align:center}
+
+nav{display:flex;gap:18px;font-size:13px}
+
+.hero{padding:60px 6% 45px;max-width:1100px;margin:auto;display:grid;grid-template-columns:1.05fr .95fr;gap:32px;align-items:center}
+
+.eyebrow{color:var(--gold);letter-spacing:3px;font-size:11px;font-weight:bold}
+
+h1{font:clamp(42px,7vw,72px)/1.04 Georgia,serif;margin:17px 0}
+
+h1 span{color:var(--gold);font-style:italic}
+
+p{color:var(--muted)}
+
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+
+.btn{padding:13px 19px;border:1px solid var(--gold);border-radius:3px;font-weight:bold;font-size:13px}
+
+.primary{background:var(--gold);color:#17130b}
+
+.art{background:radial-gradient(ellipse at center,#42331e,#1b1813 65%);border:1px solid #493a24;border-radius:50% 50% 8px 8px;padding:20px;max-width:420px;margin:auto;width:100%}
+
+section{padding:54px 6%;max-width:1100px;margin:auto}
+
+h2{font:clamp(30px,5vw,43px) Georgia,serif;margin:8px 0 20px}
+
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}
+
+.card{background:var(--panel);padding:22px;border:1px solid #342d22;border-radius:5px}
+
+.card .symbol{font-size:27px;color:var(--gold)}
+
+.card h3{font:22px Georgia,serif;margin:10px 0}
+
+.info{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+
+.note{font-size:12px;color:#a9a091}
+
+footer{padding:28px 6%;border-top:1px solid #383127;text-align:center;color:var(--muted);font-size:12px}
+
+@media(max-width:650px){header{align-items:flex-start;gap:12px}nav{gap:10px;flex-wrap:wrap;justify-content:flex-end;font-size:12px}.hero{grid-template-columns:1fr;padding-top:43px}.art{max-width:340px}.cards,.info{grid-template-columns:1fr}section{padding-top:38px;padding-bottom:38px}}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="demo">WEBSITE-KONZEPT · UNVERBINDLICHE DEMO</div>
+
+<header>
+
+  <a class="logo" href="#">ÇÖMÇE<small>EUSKIRCHEN</small></a>
+
+  <nav><a href="#gerichte">Genuss</a><a href="#besuch">Kontakt</a></nav>
+
+</header>
+
+<main>
+
+<div class="hero">
+
+  <div>
+
+    <div class="eyebrow">HERZLICH · FRISCH · TÜRKISCH</div>
+
+    <h1>Ein Stück<br><span>Genuss.</span></h1>
+
+    <p>Entdecke Çömçe in Euskirchen – eine moderne Website-Idee für türkische Küche, herzhafte Grillgerichte und frische Beilagen.</p>
+
+    <div class="actions">
+
+      <a class="btn primary" href="#gerichte">Gerichte entdecken</a>
+
+      <a class="btn" href="#besuch">Kontakt & Anfahrt</a>
+
+    </div>
+
+  </div>
+
+  <div class="art">
+
+    <svg viewBox="0 0 400 400" role="img" aria-label="Dekorative Illustration eines Grilltellers mit Gemüse und Kräutern">
+
+      <defs>
+
+        <radialGradient id="plate"><stop stop-color="#f5e8cc"/><stop offset="1" stop-color="#b5a17d"/></radialGradient>
+
+        <linearGradient id="meat" x2="0.8" y2="1"><stop stop-color="#b96b39"/><stop offset="1" stop-color="#592c1b"/></linearGradient>
+
+      </defs>
+
+      <circle cx="200" cy="200" r="174" fill="#11100e" stroke="#d8b46a" stroke-width="2"/>
+
+      <circle cx="200" cy="200" r="153" fill="url(#plate)" stroke="#f7f0e3" stroke-width="5"/>
+
+      <circle cx="200" cy="200" r="132" fill="#e5d3af"/>
+
+      <g fill="#5e773d" stroke="#334a25" stroke-width="2">
+
+        <ellipse cx="103" cy="145" rx="24" ry="11" transform="rotate(-35 103 145)"/>
+
+        <ellipse cx="118" cy="126" rx="23" ry="10" transform="rotate(25 118 126)"/>
+
+        <ellipse cx="91" cy="176" rx="21" ry="10" transform="rotate(30 91 176)"/>
+
+        <ellipse cx="290" cy="245" rx="25" ry="11" transform="rotate(-30 290 245)"/>
+
+        <ellipse cx="307" cy="219" rx="24" ry="10" transform="rotate(30 307 219)"/>
+
+        <ellipse cx="279" cy="269" rx="21" ry="10" transform="rotate(25 279 269)"/>
+
+      </g>
+
+      <g fill="url(#meat)" stroke="#713b22" stroke-width="3">
+
+        <rect x="135" y="116" width="85" height="36" rx="15" transform="rotate(-17 177 134)"/>
+
+        <rect x="180" y="151" width="89" height="36" rx="15" transform="rotate(13 224 169)"/>
+
+        <rect x="123" y="179" width="91" height="38" rx="16" transform="rotate(8 168 198)"/>
+
+        <rect x="176" y="218" width="87" height="35" rx="15" transform="rotate(-14 220 235)"/>
+
+        <rect x="136" y="255" width="79" height="31" rx="14" transform="rotate(-8 175 270)"/>
+
+      </g>
+
+      <g stroke="#e9b67b" stroke-width="3" stroke-linecap="round">
+
+        <path d="M145 132l54 -12M189 164l55 4M139 197l57 8M188 235l54 -12M150 269l49 -7"/>
+
+      </g>
+
+      <g fill="#a63e2a">
+
+        <circle cx="270" cy="128" r="17"/><circle cx="290" cy="153" r="13"/>
+
+        <circle cx="112" cy="237" r="14"/><circle cx="266" cy="287" r="12"/>
+
+      </g>
+
+      <g fill="#6e8b44"><path d="M265 108q25 -25 32 3q-22 14 -32 -3M94 218q-27 -20 -31 7q20 13 31 -7M281 288q21 -22 29 0q-17 16 -29 0"/></g>
+
+      <circle cx="200" cy="200" r="163" fill="none" stroke="#d8b46a" stroke-width="1" opacity=".7"/>
+
+    </svg>
+
+  </div>
+
+</div>
+
+<section id="gerichte">
+
+  <div class="eyebrow">AUSWAHL FÜR GENIESSER</div>
+
+  <h2>Herzhaft. Frisch. Mit Liebe.</h2>
+
+  <p>Beispielhafte Highlights für das geplante Menü. Die tatsächliche Speisekarte bitte mit dem Restaurant abstimmen.</p>
+
+  <div class="cards">
+
+    <article class="card"><div class="symbol">✦</div><h3>Grillgerichte</h3><p>Herzhafte Grill-Spezialitäten und Köfte – serviert mit passenden Beilagen.</p></article>
+
+    <article class="card"><div class="symbol">✦</div><h3>Frische Salate</h3><p>Eine frische Ergänzung zu herzhaften Gerichten und für den kleinen Hunger.</p></article>
+
+    <article class="card"><div class="symbol">✦</div><h3>Mit Reis & mehr</h3><p>Verschiedene Beilagen runden ein gemütliches Essen ab.</p></article>
+
+  </div>
+
+</section>
+
+<section id="besuch">
+
+  <div class="eyebrow">WIR FREUEN UNS AUF DEINEN BESUCH</div>
+
+  <h2>Besuche uns.</h2>
+
+  <div class="info">
+
+    <div class="card">
+
+      <h3>Adresse</h3>
+
+      <p>Alter Markt 11<br>53879 Euskirchen</p>
+
+      <a class="btn primary" href="https://www.google.com/maps/search/?api=1&query=Alter+Markt+11%2C+53879+Euskirchen" target="_blank" rel="noopener">Route öffnen ↗</a>
+
+    </div>
+
+    <div class="card">
+
+      <h3>Telefon & Öffnungszeiten</h3>
+
+      <p>Telefon: 0176 32529907</p>
+
+      <a class="btn" href="tel:+4917632529907">Jetzt anrufen</a>
+
+      <p class="note">Öffnungszeiten bitte vor Veröffentlichung vom Inhaber bestätigen lassen.</p>
+
+    </div>
+
+  </div>
+
+  <p class="note">Hinweis: Diese Website ist ein unabhängiger Gestaltungsvorschlag und keine offizielle Restaurantseite. Speisekarte, Preise, Öffnungszeiten, Fotos und Kontaktdaten vor Veröffentlichung gemeinsam prüfen.</p>
+
+</section>
+
+</main>
+
+<footer>Çömçe Euskirchen · Website-Konzept · Demo</footer>
+
+</body>
+
+</html>
